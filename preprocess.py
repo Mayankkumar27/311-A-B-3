@@ -8,3 +8,4 @@ print(df.describe())
 
 print("\n--- Feature Correlation Matrix ---")
 print(df.drop('species', axis=1).corr())
+print(df.drop('species', axis=1).corr())
